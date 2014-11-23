@@ -1,0 +1,23 @@
+(
+ :root-dir "C:\\Users\\xtian\\scala\\matrix"
+ :cache-dir "C:\\Users\\xtian\\scala\\matrix\\.ensime_cache"
+ :name "root"
+ :java-home "C:\\Program Files\\Java\\jdk1.7.0_45"
+ :java-flags ("-Xmx512M" "-XX:MaxPermSize=256m" "-XX:ReservedCodeCacheSize=128m" "-Dsbt.log.format=true")
+ :reference-source-roots ("C:\\Program Files\\Java\\jdk1.7.0_45\\src.zip")
+ :scala-version "2.11.4"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "root"
+   :module-name "root"
+   :source-roots ("C:\\Users\\xtian\\scala\\matrix\\src\\main\\scala" "C:\\Users\\xtian\\scala\\matrix\\src\\main\\java" "C:\\Users\\xtian\\scala\\matrix\\src\\test\\scala" "C:\\Users\\xtian\\scala\\matrix\\src\\test\\java")
+   :target "C:\\Users\\xtian\\scala\\matrix\\target\\scala-2.11\\classes"
+   :test-targets ("C:\\Users\\xtian\\scala\\matrix\\target\\scala-2.11\\test-classes")
+   :depends-on-modules nil
+   :compile-deps ("C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.11.4.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :reference-source-roots ("C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.11.4-sources.jar")))
+ 
+)
