@@ -17,7 +17,7 @@
    :depends-on-modules nil
    :compile-deps ("C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.11.4.jar")
    :runtime-deps nil
-   :test-deps nil
-   :reference-source-roots ("C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.11.4-sources.jar")))
+   :test-deps ("C:\\Users\\xtian\\.ivy2\\cache\\org.scalatest\\scalatest_2.11\\bundles\\scalatest_2.11-2.2.1.jar" "C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.11.2.jar" "C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.11\\bundles\\scala-xml_2.11-1.0.2.jar")
+   :reference-source-roots ("C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.11.4-sources.jar" "C:\\Users\\xtian\\.ivy2\\cache\\org.scalatest\\scalatest_2.11\\srcs\\scalatest_2.11-2.2.1-sources.jar" "C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\srcs\\scala-reflect-2.11.2-sources.jar" "C:\\Users\\xtian\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.11\\srcs\\scala-xml_2.11-1.0.2-sources.jar")))
  
 )
